@@ -1,0 +1,30 @@
+To run this 200 kb test:
+
+ 1. Install and compile ALLPATHS-LG:
+
+      tar xf allpathslg-<revision>.tar.gz
+
+      cd allpathslg-<revision>
+
+      ./configure --prefix=/path/to/install/directory/
+
+      make
+
+      make install
+
+
+ 2. Make sure your PATH includes '/path/to/install/directory/bin/'.
+
+
+ 3. Make sure you stacksize is 100 MB:
+
+      limit stacksize 100000    # on csh
+
+      ulimit -s 100000          # on sh      
+
+
+ 4. Run 'prepare.sh' to generate the ALLPATHS-LG input files.
+
+
+ 5. Run 'assemble.sh' to assemble the data.
+

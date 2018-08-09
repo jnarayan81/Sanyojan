@@ -1,0 +1,3 @@
+        file_name, library_name, group_name
+seq/frags.?.fastq, Solexa-25396,      frags
+seq/jumps.?.fastq, Solexa-11542,      jumps
